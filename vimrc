@@ -185,6 +185,7 @@ Plugin 'mtscout6/syntastic-local-eslint.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'gagoar/StripWhiteSpaces'
+Plugin 'prettier/vim-prettier'
 
 " Javascript
 Plugin 'isRuslan/vim-es6'
@@ -216,6 +217,9 @@ filetype on
 " https://github.com/nathanaelkane/vim-indent-guides#setting-custom-indent-colors
 
 let g:indent_guides_auto_colors = 0
+
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html Prettier
 
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd
         \ guibg=#00323D
