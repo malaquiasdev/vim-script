@@ -199,6 +199,9 @@ Plugin 'elzr/vim-json'
 Plugin 'chase/vim-ansible-yaml'
 Plugin 'suan/vim-instant-markdown'
 
+" Rust
+Plugin 'rust-lang/rust.vim'
+
 call vundle#end()
 filetype plugin indent on
 
