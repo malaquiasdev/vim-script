@@ -218,6 +218,10 @@ filetype on
 
 " Set custom indent colors.
 " https://github.com/nathanaelkane/vim-indent-guides#setting-custom-indent-colors
+"
+
+" Rust formmating
+let g:rustfmt_autosave = 1
 
 let g:indent_guides_auto_colors = 0
 
