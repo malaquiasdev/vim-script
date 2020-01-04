@@ -167,9 +167,10 @@ Plugin 'marijnh/tern_for_vim'
 Plugin 'mhinz/vim-signify'
 Plugin 'raimondi/delimitmate'
 Plugin 'sheerun/vim-polyglot'
-Plugin 'shougo/neocomplcache.vim'
+" Plugin 'shougo/neocomplcache.vim'
 Plugin 'shougo/neosnippet'
 Plugin 'shougo/neosnippet-snippets'
+Plugin 'valloric/youcompleteme'
 Plugin 'tpope/vim-repeat'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-commentary'
@@ -272,19 +273,19 @@ let g:vim_markdown_folding_disabled=1
 " Enable `neocomplcache` by default.
 " https://github.com/Shougo/neocomplcache.vim#installation
 
-let g:neocomplcache_enable_at_startup=1
+" let g:neocomplcache_enable_at_startup=1
 
 " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 " Make `Tab` autocomplete.
 
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+" inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 " Make `Shift+Tab` insert `Tab` character.
 
-inoremap <S-TAB> <C-V><TAB>
+" inoremap <S-TAB> <C-V><TAB>
 
 " ----------------------------------------------------------------------
 " | Plugins - NERDTree
